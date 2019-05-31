@@ -4,9 +4,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<meta charset="utf-8">
 	<title>Pokemon-/-</title>
-
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet"  href="css/style.css">
 </head>
-<body ng-controller="pokedex">
+<body ng-controller="pokedexCtrl">
+	<div class="cuadro" ng-repeat="poke in pokedex">
+		<p>{{poke.data.name}}  </p>
+	</div>
+
+
+
+	<script type="lib/boo/js/bootstrap.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
 	<script src="js/script.js"></script>
 	
