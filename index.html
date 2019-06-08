@@ -5,19 +5,40 @@
 	<meta charset="utf-8">
 	<title>Pokemon-/-</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet"  href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">	<link rel="stylesheet"  href="css/style.css">
 </head>
-<body ng-controller="pokedexCtrl">
-	<div class="cuadro" ng-repeat="poke in pokedex">
-		<p>{{poke.data.name}}  </p>
+<!--/01100101 01100100 01110011 01101111 01101110-->
+<body ng-controller="listadopokemon">
+	<div class="container-fluid nav">
+		<div class="row altoTotal">
+			<div class="col-md-12 vCenter altoTotal "><span class="titulo">Pokedex</span></div>
+		</div>
 	</div>
+	<br>
+	<!--/01100101 01100100 01110011 01101111 01101110-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 pad" ng-repeat="p in listado">
+				<div class="pokeInfo">
+					<div>
+						<img  class="img-responsive imgPoke"src="{{p.data.sprites.front_default}}" alt="poke">
+					</div>
+					<div class="nompoke text-center">
+					{{p.data.name}}
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+<!--/01100101 01100100 01110011 01101111 01101110-->
 
 
-
-	<script type="lib/boo/js/bootstrap.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
 	<script src="js/script.js"></script>
 	
-
+<!--/01100101 01100100 01110011 01101111 01101110-->
 </body>
 </html>

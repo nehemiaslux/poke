@@ -8,14 +8,14 @@ body {
     padding: 15px;
     margin: 0 auto;
     border-radius: 0.3em;
-    background-color: #f2f2f2;
+    background: url("https://media.giphy.com/media/tecJUiOAZ5rc4/giphy.gif")fixed;
 }
 
 *[role="form"] h2 { 
-    font-family: 'Open Sans' , sans-serif;
+    font-family: 'Anton' ;
     font-size: 40px;
     font-weight: 600;
-    color: #000000;
+    color: #e7eff3;
     margin-top: 5%;
     text-align: center;
     text-transform: uppercase;

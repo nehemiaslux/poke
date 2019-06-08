@@ -1,0 +1,40 @@
+.nav{
+	height: 80px;
+	background-color: #004a2f;
+
+}
+.titulo{
+	background-image: url("http://2.bp.blogspot.com/-eigx0fT3ppM/T_ReEuXA0iI/AAAAAAAAE38/3LEBNmUPzLU/s1600/Pikachu+Pokemon+Wallpapers+4.jpg")fixed;
+	font-family: Roboto Slab,cursive ;
+	font-size: 25px;
+
+}
+.vCenter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.altoTotal{
+	height: 100%;
+
+}
+.pokeInfo{
+	border: 4px solid black;
+	height: 250px;
+	width: 270px;
+}
+.pad{
+	padding: 4%;
+
+}
+.imgPoke{
+	width: 200px;
+	margin: 0 auto;
+}
+.nompoke{
+	background-color: #064acb;
+	padding: 2%;
+	border-top:2px  solid black;
+	font-weight: bolder;
+	font-size: 18px;
+}

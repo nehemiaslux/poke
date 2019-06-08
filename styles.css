@@ -32,6 +32,7 @@ cursor: pointer;
 
 .card-header h3{
 color: white;
+justify-content: center;
 }
 
 .social_icon{
