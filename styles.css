@@ -84,3 +84,17 @@ color: white;
 .links a{
 margin-left: 4px;
 }
+.circulo {
+     width: 240px;
+     height: 140px;
+
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+     justify-content: center;
+     
+}
+.jp{
+	font-family: rammeto one;
+}
