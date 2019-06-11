@@ -1,3 +1,4 @@
+/*<!--/01100101 01100100 01110011 01101111 01101110-->*/
 var pokemon= angular.module("pokemon",[])
 
 pokemon.controller("listadopokemon", function ($scope,$rootScope,$http){
